@@ -1,1 +1,18 @@
 
+# Python - Hide compiled code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments - Hide virtual folders
+.venv/
+venv/
+ENV/
+
+# Data & Logs - Hide local run logs
+*.log
+.DS_Store
+
+# Termux/Mobile specific - Hide temporary session files
+.termux/
+.bash_history
