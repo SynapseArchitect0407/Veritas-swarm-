@@ -5,8 +5,6 @@ Multi-Agent Orchestration
 
 **Veritas Swarm** is a high-performance, asynchronous multi-agent framework engineered for low-resource environments and mobile edge computing. By replacing abstraction-heavy overhead with a surgical **Core AI backbone**, it achieves near-instantaneous orchestration cycles.
 
-### 🎯 Why Veritas Swarm?
-Traditional agent frameworks are built for cloud servers with infinite RAM. Veritas Swarm is built for the **edge**. It leverages **Signal Pruning** and **Temporal Memory Decay** to maintain high intelligence without thermal throttling or memory leaks.
 
 ### 👥 Who is it for?
 * **AI Researchers:** Exploring emergent swarm behavior and temporal RAG logic.
@@ -111,7 +109,7 @@ This project serves as the backbone for **Temporal RAG**—shifting AI from simp
 * **🧠 Bio-Inspired Temporal Memory:** Implements exponential decay buffers in `memo.py` to prioritize recent, relevant signals over stale data.
 * **🛡️ Production-Grade Resilience:** Native `@swarm_retry` decorators and partial failure recovery logic in `error.py` keep the mission alive even during node crashes.
 * **📉 Signal Pruning & Optimization:** Mathematically prunes weak signals to reduce CPU overhead by up to 40%, preventing thermal throttling on mobile devices.
-* **⚖️ Entropy-Gated Consensus:** Uses Shannon Entropy calculations to detect swarm divergence, ensuring every response meets a >0.7 confidence threshold.
+* **⚖️ Entropy-Gated Consensus:** Uses Shannon Entropy calculations to detect swarm divergence, ensuring every response meets a 0.1 sparsity threshold.
 * **📱 Native ARMv8 Integration:** Built specifically for the **Termux** environment on Android, proving high-level AI research is possible without a desktop.
 * **🔄 Decoupled Functional Architecture:** Modular core components allow for instant swapping of logic, consensus, or memory strategies.
 
@@ -147,7 +145,7 @@ pip install -r requirements.txt
 
 Veritas Swarm is engineered for high-throughput execution with a focus on "Close-to-Metal" Python optimization for mobile environments.
 
-* **Runtime:** [Python 3.12+](https://www.python.org/) — Utilizing advanced `asyncio` for structured concurrency.
+* **Runtime:** [Python 3.13+](https://www.python.org/) — Utilizing advanced `asyncio` for structured concurrency.
 * **Architecture:** **ARMv8 (64-bit)** — Deeply optimized for mobile CPU instruction sets.
 * **Environment:** [Termux](https://termux.dev/) — Native Linux-layer execution on Android.
 * **Orchestration:** Custom **Sub-4ms Engine** — Built on `TaskGroups` for minimal context-switching overhead.
