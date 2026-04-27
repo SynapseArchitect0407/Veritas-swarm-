@@ -120,7 +120,7 @@ This project serves as the backbone for **Temporal RAG**—shifting AI from simp
 
 ### Prerequisites
 * **Android Device** with [Termux](https://termux.dev/) installed.
-* **Python 3.12+** (Optimized for `asyncio` structured concurrency).
+* **Python 3.13+** (Optimized for `asyncio` structured concurrency).
 
 ### Installation (Mobile Native)
 ```bash
