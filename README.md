@@ -114,6 +114,11 @@ This project serves as the backbone for **Temporal RAG**—shifting AI from simp
 * **🔄 Decoupled Functional Architecture:** Modular core components allow for instant swapping of logic, consensus, or memory strategies.
 
 
+##Development Story
+First version leaked memory everywhere.
+Deque and timeouts saved it.
+
+
 ---
 
 ## 🛠️ Getting Started
